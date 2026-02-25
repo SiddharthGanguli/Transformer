@@ -1,0 +1,20 @@
+🔹 STEP 1 — Tokenize text
+Text → token IDs
+
+🔹 STEP 2 — Convert token IDs to embeddings
+IDs → vectors using nn.Embedding
+
+🔹 STEP 3 — Create Q, K, V projections
+Multiply embeddings with 3 weight matrices
+
+🔹 STEP 4 — Compute attention scores
+QKᵀ
+
+🔹 STEP 5 — Scale
+Divide by √d_k
+
+🔹 STEP 6 — Apply softmax
+Convert scores → probabilities
+
+🔹 STEP 7 — Multiply by V
+Weighted sum
