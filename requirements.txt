@@ -3,3 +3,4 @@ numpy
 seaborn
 tensorflow
 torch
+bertviz
