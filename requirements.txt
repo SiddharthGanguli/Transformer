@@ -3,4 +3,4 @@ numpy
 seaborn
 tensorflow
 torch
-bertviz
+bertvizcomplete single-head self-attention mechanism.
